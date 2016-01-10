@@ -7,6 +7,12 @@
   </p>
   <p>I've recently started coding, you can find a blog about my experiences  <a href="https://www.tumblr.com/blog/cjkb90">here!</a>
   </p>
+    <ul>
+      <% for(var i=0; i<latestPosts.length; i++) {%>
+      <ol>On <%=blogDate%> I wrote a post titled <a href=<%=blogLink%><%=blogTitle%>.</a>
+      </ol>
+        <% } %>
+    </ul>
 
   <p>Talk soon,
     <br>Chris
